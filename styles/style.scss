@@ -1,0 +1,69 @@
+@import "bourbon", "neat";
+@import "bitters/*";
+
+body {
+  font-size: 85%;
+
+  @include media($small-screen) {
+    font-size: 91%;
+  }
+  @include media($medium-screen) {
+    font-size: 96%;
+  }
+  @include media($large-screen) {
+    font-size: 110%; 
+  }
+}
+
+
+.outer-container {
+  @include outer-container;
+}
+
+article {
+  width: 85%;
+  margin: 200px auto 0;
+
+  @include media($small-screen) {
+    width: 80%; 
+  }
+  @include media($medium-screen) {
+    width: 72%; 
+  }
+
+  @include media($large-screen) {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+
+
+
+code {
+  font-size: 0.85em;
+  font-family: Consolas;
+  background: lighten(lightgrey, 11%);
+  padding: 0.2em 0.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
