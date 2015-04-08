@@ -392,7 +392,7 @@ body {
       font-size: 96%; } }
   @media screen and (min-width: 60em) {
     body {
-      font-size: 110%; } }
+      font-size: 150%; } }
 
 .outer-container {
   max-width: 68em;
@@ -411,10 +411,10 @@ article {
       width: 80%; } }
   @media screen and (min-width: 50.625em) {
     article {
-      width: 72%; } }
+      width: 66%; } }
   @media screen and (min-width: 60em) {
     article {
-      width: 60%; } }
+      width: 58%; } }
   article h1 {
     font-size: 1.5em; }
 

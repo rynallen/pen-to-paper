@@ -11,7 +11,7 @@ body {
     font-size: 96%;
   }
   @include media($large-screen) {
-    font-size: 110%; 
+    font-size: 150%; 
   }
 }
 
@@ -28,20 +28,17 @@ article {
     width: 80%; 
   }
   @include media($medium-screen) {
-    width: 72%; 
+    width: 66%; 
   }
 
   @include media($large-screen) {
-    width: 60%;
+    width: 58%;
   }
 
   h1 {
     font-size: 1.5em;
   }
 }
-
-
-
 
 code {
   font-size: 0.85em;
